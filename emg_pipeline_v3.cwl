@@ -18,7 +18,7 @@ outputs: []
 
 steps:
   fraggenescan:
-    run: FragGeneScan1_20.cwl
+    run: FragGeneScan1.20.cwl
     in:
       trainDir: FgsTrainingDir
       sequenceFileName: FgsInputFile
